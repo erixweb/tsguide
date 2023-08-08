@@ -15,6 +15,17 @@ export default function InstalarPage (_props: any) {
             <p>
                 Puedes instalar TSC (TypeScript Compiler) usando tu favorito gestor de paquetes, ya sea npm, pnpm o yarn.
             </p>
+            <p>
+                npm:
+            </p>
+            <pre>
+                <code>
+                    npm install typescript -g
+                </code>
+            </pre>
+            <p>
+                pnpm:
+            </p>
             <pre>
                 <code>
                     pnpm install typescript -g
