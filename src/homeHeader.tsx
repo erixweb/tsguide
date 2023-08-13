@@ -13,7 +13,9 @@ export default function HomeHeader () {
                         Comenzar
                     </a>
                 </div>
-                <TSLogo />
+                <div className="logo">
+                    <TSLogo />
+                </div>
             </div>
         </header>
     )
