@@ -6,14 +6,14 @@ export default function Layout(props: any) {
 	return (
 		<>
 			<div className="wrapper">
-				<aside>
-					<div className="wrap">
-						<a href="/guia/instalar">Instalar</a>
-						<a href="/guia/tipos-primitivos">Tipos primitivos</a>
-					</div>
-				</aside>
+				<Navigation />
 				<div className="main">
-			        <Navigation />
+					<aside>
+						<div className="wrap">
+							<a href="/guia/instalar">Instalar</a>
+							<a href="/guia/tipos-primitivos">Tipos primitivos</a>
+						</div>
+					</aside>
 					<main>
 						<h1>{title}</h1>
 						<hr />
